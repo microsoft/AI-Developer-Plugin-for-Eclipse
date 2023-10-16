@@ -8,7 +8,7 @@ In future it will be enhanced to work with most of known eclipse based developme
 ## Prerequisites
 An Azure subscription  https://azure.microsoft.com/en-us/free/ai-services/
 
-The Code generation works with GPT 4 or GPT 3.5 Turbo Model
+The Code generation works with GPT 4 or GPT 3.5 Turbo Model. Ensure your access includes one of this model.
 
 Eclipse IDE Minimum Version: 2023-03 (4.27.0)
 
@@ -19,7 +19,7 @@ Extract the zip and locate aidttools .
 
 Adding the Update Site to your Eclipse installation:
 
-In Eclipse, choose in the menu bar Help > Install New Software and add the URL
+In Eclipse, choose in the menu bar Help > Install New Software and add the URL file:/<folder_path>/aidttools
 
 
 
