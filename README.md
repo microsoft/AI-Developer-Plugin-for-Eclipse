@@ -1,7 +1,7 @@
 # AI-Developer-Toolset-Plugin-for-Eclipse
 ## What is AI-Developer-Toolset-Plugin-for-Eclipse
-The AI Development Tool Plugin is designed to work in Text Editors of Eclipse to improve developer efficiency leveraging power of Azure Open AI.
-
+The AI Developer Toolkit will help auto generate code for Eclipse based Developments which are done through text editors. It is
+primarily focused for SAP based developments: e.g. ABAP Report, Class, Function Module, BADI, User Exits, CDS Views, Rest APIs.
 With the current release, it is tested to work with SAP based developments. 
 
 In future it will be enhanced to work with most of known eclipse based development objects.
