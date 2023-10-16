@@ -13,7 +13,7 @@ The Code generation works with GPT 4 or GPT 3.5 Turbo Model. Ensure your access 
 Eclipse IDE Minimum Version: 2023-03 (4.27.0)
 
 ## Download and Installation
-Download the zip file given in the to your local drive.
+Download the zip file given in the repository to your local drive.
 
 Extract the zip and locate aidttools .
 
