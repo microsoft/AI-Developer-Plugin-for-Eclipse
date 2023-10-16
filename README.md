@@ -21,5 +21,7 @@ Adding the Update Site to your Eclipse installation:
 
 In Eclipse, choose in the menu bar Help > Install New Software and add the URL file:/<folder_path>/aidttools
 
+Select the plugin AIDTTools. Click on Next and allow it to get installed
+
 
 
