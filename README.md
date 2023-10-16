@@ -1,7 +1,7 @@
 # AI-Developer-Toolset-Plugin-for-Eclipse
 ## What is AI-Developer-Toolset-Plugin-for-Eclipse
 The AI Developer Toolset will help leveraging Azure Open AI Capabilities for Eclipse based Developments which are done through text editors. It is
-primarily focused for SAP based developments: e.g. ABAP Report, Class, Function Module, BADI, User Exits, CDS Views, Rest APIs.
+primarily focused on SAP based developments: e.g. ABAP Report, Class, Function Module, BADI, User Exits, CDS Views, Rest APIs.
 With the current release, it is tested to work with SAP based developments. 
 
 In future it will be enhanced to work with most of known eclipse based development objects.
