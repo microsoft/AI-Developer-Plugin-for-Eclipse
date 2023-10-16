@@ -6,7 +6,7 @@ With the current release, it is tested to work with SAP based developments.
 
 In future it will be enhanced to work with most of known eclipse based development objects.
 ## Prerequisites
-An Azure subscription 
+An Azure subscription  https://azure.microsoft.com/en-us/free/ai-services/
 
 The Code generation works with GPT 4 or GPT 3.5 Turbo Model
 
