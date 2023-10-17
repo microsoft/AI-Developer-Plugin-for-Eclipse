@@ -1,6 +1,6 @@
 
 ## Writing Data from a table to a file
-### Provide following in the comment. Either you can sorround these comments in #START and #END or select these lines to pass multiple lines to AIDT plugin code generation function.
+<b> Provide following in the comment. Either you can sorround these comments in #START and #END or select these lines to pass multiple lines to AIDT plugin code generation function.</b>
 Define a selection field to take customer number  and file path as input
 Provide field names with table to declare a structure
 Declare a type with fields and internal table
