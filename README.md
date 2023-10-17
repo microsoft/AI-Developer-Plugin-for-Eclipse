@@ -23,7 +23,8 @@ Eclipse IDE Minimum Version: 2023-03 (4.27.0)
 3. Adding the Update Site to your Eclipse installation:
 In Eclipse, choose in the menu bar Help > Install New Software and add the URL file:/<folder_path>/aidttools
 
-4.Select the plugin AIDTTools. Click on Next and allow it to get installed. For detailed steps refer document provided in the git folder
+4. Select the plugin AIDTTools. Click on Next and allow it to get installed. For detailed steps refer document provided in the git folder
+   
 
 
 
