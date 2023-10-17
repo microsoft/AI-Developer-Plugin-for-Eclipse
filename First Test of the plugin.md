@@ -1,5 +1,6 @@
 # How to test this Plugin
 After AI plugin is installed successfully in Eclipse , you will get a toolset in your toolbar as below
+<img src="/images/aidt_plugin_menu.png" />
 
 Open any Development Object in applicable text editor and write a requirement in text
 
