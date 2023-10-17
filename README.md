@@ -13,15 +13,14 @@ The Code generation works with GPT 4 or GPT 3.5 Turbo Model. Ensure your access 
 Eclipse IDE Minimum Version: 2023-03 (4.27.0)
 
 ## Download and Installation
-Download the zip file given in the repository to your local drive.
+1. Download the zip file given in the repository to your local drive.
 
-Extract the zip and locate aidttools .
+2. Extract the zip and locate aidttools .
 
-Adding the Update Site to your Eclipse installation:
-
+3. Adding the Update Site to your Eclipse installation:
 In Eclipse, choose in the menu bar Help > Install New Software and add the URL file:/<folder_path>/aidttools
 
-Select the plugin AIDTTools. Click on Next and allow it to get installed
+4.Select the plugin AIDTTools. Click on Next and allow it to get installed. For detailed steps refer document provided in the git folder
 
 
 
