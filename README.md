@@ -43,6 +43,11 @@ Type a single line of comment like below and press enter then Ctrl + 4 to genera
 If you need to give multiple lines , there are two ways to give instruction 
 sorround with #START #END and press enter then Ctrl + 4
 or select lines to be passed as prompt then Ctrl + 4.
+### Contacts 
+Developed by : Monalisa Biswal
+Advisory : Ram Bairavarsu, Krishna Ankam, Gopal Nair
+Help on Prompt Engineering : Alice Vinogradova
+Testing
 
 
    
