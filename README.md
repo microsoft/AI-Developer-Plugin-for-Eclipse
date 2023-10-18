@@ -28,17 +28,21 @@ In Eclipse, choose in the menu bar Help > Install New Software and add the URL f
 ## What it offers
 ### Generate Code
 You can use this feature to auto generate code by providing requirement in text format. 
+
 Type a single line of comment like below and press enter then Ctrl + 8 to generate code.
+
 If you need to give multiple lines , there are two ways to give instruction 
 sorround with #START #END and press enter then Ctrl + 8 
-or select lines to be passed as prompt then Ctrl +8
+or select lines to be passed as prompt then Ctrl + 8.
 
 ### Generate Template
-You can use this feature to auto generate code by providing requirement in text format. 
-Type a single line of comment like below and press enter then Ctrl + 8 to generate code.
+You can use this feature to generate template from existing code base to reuse this feature. 
+
+Type a single line of comment like below and press enter then Ctrl + 4 to generate template.
+
 If you need to give multiple lines , there are two ways to give instruction 
 sorround with #START #END and press enter then Ctrl + 4
-or select lines to be passed as prompt then Ctrl + 4
+or select lines to be passed as prompt then Ctrl + 4.
 
 
    
