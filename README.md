@@ -1,6 +1,6 @@
 # AI-Developer-Toolset-Plugin-for-Eclipse
 ## What is AI-Developer-Toolset-Plugin-for-Eclipse
-The AI Developer Toolset (AIDT) is a plugin that enables you to use Azure Open AI capabilities in your Eclipse based developments. The plugin uses generative AI with codex model to create code and documentation that improve developer’s efficiency. It lets you generate templates from your current code base to apply in similar developments. You can act as a technical lead with high level technical design, code templates and the plugin will help you to generate the code.
+The AI Developer Toolset (AIDT) is a plugin that enables you to use Azure Open AI capabilities in your Eclipse based developments. The plugin uses generative AI with codex model to create code and documentation that improve developer’s efficiency. It lets you generate templates from your current code base to apply in similar developments. You can act as a technical lead with high level program flow, code templates and the plugin will help you to generate the code.
 
 The AI Developer Toolset plugin enables you to seamlessly integrate AI features into your text editor based projects. It supports various SAP based developments, such as ABAP Report, Class, Function Module, BADI, User Exits, CDS Views, Rest APIs. It is compatible with the latest SAP based developments. It is tested to work with SAP based developments in the current release.
 
