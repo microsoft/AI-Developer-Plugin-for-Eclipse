@@ -50,7 +50,7 @@ Advisory : Ram Bairavarsu, Krishna Ankam, Gopal Nair
 
 Help on Prompt Engineering : Alice Vinogradova
 
-Testing : Anuj Shah, Pareen Karpe 
+Additional Contacts : Anuj Shah, Pareen Karpe 
 
 
    
