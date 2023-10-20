@@ -24,7 +24,8 @@ Eclipse IDE Minimum Version: 2023-06
 In Eclipse, choose in the menu bar Help > Install New Software and add the URL file:/<folder_path>/aidttools
 
 4. Select the plugin AIDTTools. Click on Next and allow it to get installed. For detailed steps refer document provided in the git folder
-
+Follow this < a href="https://github.com/MonaDevAI/AI-Developer-Plugin-for-Eclipse/blob/main/Step%20by%20Step%20guide%20to%20Install%20AIDT%20Tools%20for%20Eclipse%20Plugin.pdf" > Step by Step guide to Install AIDT Tools
+</a>
 ## What it offers
 ### Generate Code
 You can use this feature to auto generate code by providing requirement in text format. 
