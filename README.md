@@ -13,7 +13,7 @@ An Azure subscription  https://azure.microsoft.com/en-us/free/ai-services/
 
 The Code generation works with GPT 4 or GPT 3.5 Turbo Model. Ensure your access includes one of this model.
 
-Eclipse IDE Minimum Version: 2023-03 (4.27.0)
+Eclipse IDE Minimum Version: 2023-06
 
 ## Download and Installation
 1. Download the zip file given in the repository to your local drive.
