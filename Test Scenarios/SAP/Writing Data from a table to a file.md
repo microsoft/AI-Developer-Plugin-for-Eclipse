@@ -17,6 +17,6 @@
 
 Test this further by adding a new comment before download table code to write data in json format. 
 
-select all lines with the below code to test this function
+select all lines below loop code to test this function
 <code>*Rewrite above code to concatenate fields from it_customer in json format.</code>
 Remove any command like text from the editor to make it more accurate
