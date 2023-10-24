@@ -1,7 +1,7 @@
 ## Copy this code to a sample program to display alv report
 
-[ALV Example]( ALV Example )
-[ALV Example](ALV Example)
+
+[ALV Example](ALV Example.md)
 
 Now at the start of the code *#TEMPLATE#<TEMPLATE_NAME># like : *#TEMPLATE#ALV_TEMP# 
 
