@@ -1,3 +1,4 @@
+```
 TYPES: BEGIN OF ty_customer,
             customer_id TYPE kna1-kunnr,
             name1 TYPE kna1-name1,
@@ -43,3 +44,4 @@ CALL METHOD alv_grid->set_sort_info
 
 *--Display the ALV
 CALL METHOD alv_grid->display.
+```
