@@ -1,7 +1,6 @@
 ```
 TYPES:
  BEGIN OF ty_s_data,
-
  vbeln TYPE vbap-vbeln,
  netwr TYPE vbap-netwr,
  t_color TYPE lvc_t_scol, "Color column
