@@ -13,4 +13,4 @@ Now you can apply this code to a similar requirement
 
 e.g. for the above example in another program write below
 
-display sales order details order number order date in ALV report using #TEMPLATE#ALV_COLOR#
+using #TEMPLATE#ALV_COLOR# display purchase order amount from ekpo in ALV report highlight if amount > 100  
