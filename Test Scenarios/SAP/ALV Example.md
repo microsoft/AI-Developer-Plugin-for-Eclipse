@@ -1,47 +1,35 @@
 ```
-TYPES: BEGIN OF ty_customer,
-            customer_id TYPE kna1-kunnr,
-            name1 TYPE kna1-name1,
-            city TYPE kna1-city1,
-       END OF ty_customer.
+TYPES:
+ BEGIN OF ty_s_data,
 
-DATA: it_customers TYPE TABLE OF ty_customer,
-      wa_customer TYPE ty_customer,
-      wa_sales TYPE bapivbap.
+ vbeln TYPE vbap-vbeln,
+ netwr TYPE vbap-netwr,
+ t_color TYPE lvc_t_scol, "Color column
+ END OF ty_s_data.
 
-*--Populate the internal table with data
-SELECT kunnr name1 city1 FROM kna1 INTO TABLE it_customers.
+DATA mt_data TYPE TABLE OF ty_s_data.
 
-LOOP AT it_customers INTO wa_customer.
-  CLEAR wa_sales.
-  SELECT SINGLE vbeln FROM vbak
-         WHERE kunnr = wa_customer-customer_id
-              AND vbtyp = 'C'
-         INTO wa_sales-vbeln.
-  wa_customer-sales_order = wa_sales-vbeln.
+SELECT vbeln netwr FROM vbap INTO corresponding fields of TABLE mt_data up to 10 rows.
+
+LOOP AT mt_data ASSIGNING FIELD-SYMBOL(<s_data>).
+  IF <s_data>-netwr > 5000.
+    APPEND VALUE #( color-col = col_negative color-int = 0 color-inv = 0 ) TO <s_data>-t_color.
+  ENDIF.
 ENDLOOP.
 
-*--Create an instance of the ALV
-DATA: alv_grid TYPE REF TO cl_gui_alv_grid.
 
-CREATE OBJECT alv_grid
-  EXPORTING i_parent = cl_gui_container=>screen0.
+DATA: lo_alv TYPE REF TO cl_salv_table.
 
-*--Set the properties of the ALV
-CALL METHOD alv_grid->set_table_for_first_display
-  EXPORTING
-    i_structure_name = 'TY_CUSTOMER'
-  CHANGING
-    it_outtab = it_customers.
+    cl_salv_table=>factory(
+      IMPORTING
+        r_salv_table = lo_alv
+      CHANGING
+        t_table      = mt_data )
+    .
 
-CALL METHOD alv_grid->set_layout
-  EXPORTING
-    is_layout = t_layout.
-
-CALL METHOD alv_grid->set_sort_info
-  EXPORTING
-    is_sortinfo_fieldname = 'CUSTOMER_ID'.
-
-*--Display the ALV
-CALL METHOD alv_grid->display.
+lo_alv->get_functions( )->set_all( abap_true ).
+lo_alv->get_columns( )->set_optimize( abap_true ).
+lo_alv->get_columns( )->set_color_column( 'T_COLOR' ).
+lo_alv->display( ).
+*#END
 ```
