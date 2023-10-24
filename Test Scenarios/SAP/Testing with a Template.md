@@ -3,7 +3,7 @@
 Refer this file
 [ALV Example.md](https://github.com/MonaDevAI/AI-Developer-Plugin-for-Eclipse/blob/main/Test%20Scenarios/SAP/ALV%20Example.md)
 
-Now at the start of the code *#TEMPLATE#<TEMPLATE_NAME># like : *#TEMPLATE#ALV_TEMP# 
+Now at the start of the code *#TEMPLATE#<TEMPLATE_NAME># like : *#TEMPLATE#ALV_COLOR# 
 
 Highlight all lines or surround with #START #END and press Ctrl + 4 or Generate Template from the menu
 
@@ -13,4 +13,4 @@ Now you can apply this code to a similar requirement
 
 e.g. for the above example in another program write below
 
-display sales order details order number order date in ALV report using #TEMPLATE#ALV_TEMP#
+display sales order details order number order date in ALV report using #TEMPLATE#ALV_COLOR#
