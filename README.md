@@ -15,7 +15,7 @@ The Code generation works with GPT 4 or GPT 3.5 Turbo Model. Ensure your access 
 
 Eclipse IDE Minimum Version: 2023-06
 
-JustJ Adoptium OpenJDK Hotspot JRE Complete	21.0.0.v20231013-1207	
+JustJ Adoptium OpenJDK Hotspot JRE Complete	21.0.0.v20231013-1207	https://download.eclipse.org/justj/jres/latest
 
 ## Download and Installation
 1. Download the zip file given in the repository to your local drive.
