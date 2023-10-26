@@ -7,7 +7,7 @@ Now at the start of the code *#TEMPLATE#<TEMPLATE_NAME># like : *#TEMPLATE#ALV_C
 
 Highlight all lines or surround with #START #END and press Ctrl + 4 or Generate Template from the menu
 
-A file will be downloaded to the path you mentioned in the file path
+A file will be downloaded to the path you mentioned in the file path in Preference
 
 Now you can apply this code to a similar requirement
 
