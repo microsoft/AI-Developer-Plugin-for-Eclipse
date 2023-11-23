@@ -25,7 +25,7 @@ JustJ Adoptium OpenJDK Hotspot JRE Complete	21.0.0.v20231013-1207	https://downlo
 3. Adding the Update Site to your Eclipse installation:
 In Eclipse, choose in the menu bar Help > Install New Software and add the URL file:/<folder_path>/aidttools
 
-4. Select the plugin AIDTTools. Click on Next and allow it to get installed.
+4. Select the plugin AIDTTools (ensure to uncheck "Group items by catagory" otherwise it will not be displayed). Click on Next and allow it to get installed.
   
    For detailed steps refer document :
 [Step by Step guide to Install AIDT Tools for Eclipse Plugin](https://github.com/MonaDevAI/AI-Developer-Plugin-for-Eclipse/blob/main/Step%20by%20Step%20guide%20to%20Install%20AIDT%20Tools%20for%20Eclipse%20Plugin.pdf)
